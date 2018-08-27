@@ -8,7 +8,7 @@ var randomize = function(){
 
 //  var rolledNumber= randomize();
 
-  $("#rollednumber").text(rolledNumber);
+  //$("#rollednumber").text(rolledNumber);
 
 //
   if(rolledNumber==1  ) {
