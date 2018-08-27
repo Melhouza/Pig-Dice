@@ -3,10 +3,10 @@ var randomize = function(){
   return rolledNumber;
 }
 
-$(document).ready(function() {
-$("button#roll").click(function(){
+//$(document).ready(function() {
+//$("button#roll").click(function(){
 
-  var rolledNumber= randomize();
+//  var rolledNumber= randomize();
 
   $("#rollednumber").text(rolledNumber);
 
