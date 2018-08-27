@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.3.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Pig Dice Game</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="jumbotron">
+
+        <h1><strong>Pig Dice</strong></h1>
+
+      </div>
+
+    <div class="row">
+      <div class="col-md-6">
+        <div id="Player A">
+          <h3> PLAYER A</h3>
+
+        <img src="images/pig.dice.jpeg" alt="dice image">
+        <button class="btn-primary-btn" id="roll">ROLL</button>
+        <button class="btn-primary-btn" id="hold">HOLD</button>
+        <p>Rolled number <span id="rollednumber"></span></p>
+        <p class="turns">SWITCH TURNS</p>
+          </div>
+        </div>
+          <div class="col-md-6">
+            <div id="player B">
+            <h3> Player B </h3>
+            <img src="images/pig-dice.jpeg" alt="a pic of dice">
+            <button class="btn-primary-btn" id="roll2">ROLL</button>
+            <button class="btn-primary-btn" id="hold2">HOLD</button>
+            <p>Rolled number <span id="rollednumberb"></span></p>
+            <p class="turns">SWITCH TURNS</p>
+
+        </div>
+      </div>
+
+      </div>
+      <p> If a player rolls 1 on the dice they score nothing & its the next players turn.</p>
+      <p> If a player happens to roll on any other number, its added to their turn total & the players turn continues.</p>
+      <p> If a player decides to hold, their turn total is added to their score & it becomes the next players turn.</p>
+
+    </div>
+
+  </body>
+</html>
