@@ -10,16 +10,16 @@ var randomize = function(){
 
   $("#rollednumber").text(rolledNumber);
 
-
+//
   if(rolledNumber==1  ) {
 
-    alert("Ooops!!You rolled 1.It's the other player's turn");
+//alert("Ooops!!You rolled 1.It's the other player's turn");
   }
 });
   $("button#hold").click(function(){
     alert("Its the other players turn");
   });
-$("button#roll2").click(function(){
+//$("button#roll2").click(function(){
     var rolledNumberb= randomize();
 
 $("#rolledNumberb").text(rolledNumberb);
@@ -27,7 +27,7 @@ $("#rolledNumberb").text(rolledNumberb);
   });
 if(rolledNumberb==1) {
 
-  alert("Ooops!!You rolled 1.It's the other player's turn");
+//  alert("Ooops!!You rolled 1.It's the other player's turn");
 }
 $("button#hold2").click(function(){
 alert("Its the other players turn");
